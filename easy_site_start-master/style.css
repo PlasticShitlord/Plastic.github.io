@@ -49,8 +49,14 @@ header{
 .banner_text h1{
 	font-size: 40px;
 }
+.banner_tick{
+	font-size: 5em;
+	font-weight:bold;
+	color: rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
 .banner_image{
-	margin-top: 110px;
+	margin-top: 19px;
 }
 /* end banner */
 

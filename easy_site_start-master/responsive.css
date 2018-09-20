@@ -1,4 +1,10 @@
-@media (min-width: 100px) and (max-width: 750px){
+@media (min-width: 100px) and (max-width: 760px){
   .definition_item{
   	width: 100%;
+}
+}
+@media (min-width: 761px) and (max-width: 1000px){
+  .definition_item{
+  	width: 50%;
+}
 }
