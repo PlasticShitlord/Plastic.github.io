@@ -18,7 +18,9 @@ button {
 	font-weight: 400;
 
 }
-
+a{
+	text-decoration: none;
+}
 input, textarea, button {
 	outline: none;
 }
@@ -38,7 +40,7 @@ header{
 .banner{
 	height: 650px;
 	padding-top: 170px;
-	background: linear-gradient(to top, #ffa8a8, #fcff00)
+	background: linear-gradient(to top, #9b609e, #6d8cfffa)
 }
 .banner_text, .banner_image{
 	margin: 0 auto;
@@ -98,7 +100,7 @@ header{
 input, textarea{
 	width: 100%;
 	font-size: 18px;
-	border: 2px solid #ffa8a8;
+	border: 2px solid #3e0992;
 	border-radius: 15px;
 	text-align: center;
 	margin-bottom: 50px;
@@ -110,4 +112,24 @@ input, textarea{
 }
 section.form{
 
+}
+.btn{
+	display: inline-block;
+	height: 40px;
+	font-size: 18px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px 10%;
+	text-align: center;
+	border: none;
+	background-image: linear-gradient(to right, #9b609e 0%, #fffffffa 51%, #9b609e 100%);
+	background-size: 200% auto;
+	transition: 0.6s;
+	cursor: pointer;
+}
+.btn:hover{
+	background-position: right, center;
+}
+.form h2{
+	font-size: 30px;
 }
