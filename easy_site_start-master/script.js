@@ -1,3 +1,4 @@
+new WOW().init();
 var h = document.getElementById('hour');
 var m = document.getElementById('minute');
 var s = document.getElementById('second');
