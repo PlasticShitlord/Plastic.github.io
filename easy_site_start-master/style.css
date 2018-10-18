@@ -29,7 +29,7 @@ input, textarea, button {
 
 footer{
 	width: 100%;
-	height: 95px;
+	height: 55px;
 	background: rgba(255, 168, 168, 1);
 	text-transform: uppercase;
 	text-align: center;
@@ -66,9 +66,10 @@ header{
 	color: rgba(0, 0, 0, 0.4);
 	text-align: center;
 }
-.banner_image{
-	margin-top: 24px;
+.banner_image img{
+	margin-top: 19px;
 }
+
 /* end banner */
 
 /* start definition*/
