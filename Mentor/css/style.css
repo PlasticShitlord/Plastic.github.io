@@ -75,19 +75,19 @@ Navigation bar
     outline: none;
 }
 
-.btn-trial a{
+.btn-login a{
 	background-color: #5FCF80;
 	border-radius: 25px;
 	color: #ffffff !important;
 	border: 1px solid #5FCF80;
 }
-.btn-trial a:hover, .btn-trial a:focus{
+.btn-login a:hover, .btn-login a:focus{
 	border: 1px solid #5FCF80;
 	background-color: #fff;
-	color: #5FCF80 !important;
+	color: #5FCF80 ;
 }
 .navbar-default .navbar-brand {
-    font-family: 'Dosis', sans-serif !important;
+    font-family: 'Dosis', sans-serif ;
     font-weight: 700;
     text-transform: uppercase;
     padding: 0px;
@@ -368,7 +368,7 @@ Cta
 Work Shop
 ************************************/
 #work-shop {
-    background-color: rgb(247, 247, 247);
+    /* background-color: rgb(247, 247, 247); */
 }
 .service-box{
     background: #fff;
@@ -388,6 +388,11 @@ Work Shop
 /***********************************
 Mentor Team
 ************************************/
+
+#faculity-member{
+	background: rgb(247, 247, 247);
+}
+
 .pm-staff-profile-image{
   width: 150px;
   height: 150px;

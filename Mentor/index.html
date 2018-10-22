@@ -40,7 +40,7 @@
             <li><a href="#faculity-member">Команда</a></li>
             <li><a href="#pricing">Цены</a></li>
             <li><a href="#courses">Заказ</a></li>
-            <li class="btn-trial"><a href="#footer">Войти</a></li>
+            <li class="btn-login"><a href="#" data-target="#login" data-toggle="modal">Войти</a></li>
           </ul>
         </div>
       </div>
@@ -56,24 +56,24 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title text-center form-title">Login</h4>
+          <h4 class="modal-title text-center form-title">Войти</h4>
         </div>
         <div class="modal-body padtrbl">
 
           <div class="login-box-body">
-            <p class="login-box-msg">Sign in to start your session</p>
+            <p class="login-box-msg">Войдите в аккаунт для начала работы</p>
             <div class="form-group">
               <form name="" id="loginForm">
                 <div class="form-group has-feedback">
-                  <!----- username -------------->
-                  <input class="form-control" placeholder="Username" id="loginid" type="text" autocomplete="off" />
+                  <!--- username -------------->
+                  <input class="form-control" placeholder="Имя пользователя" id="loginid" type="text" autocomplete="off" />
                   <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span>
                   <!---Alredy exists  ! -->
                   <span class="glyphicon glyphicon-user form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
-                  <!----- password -------------->
-                  <input class="form-control" placeholder="Password" id="loginpsw" type="password" autocomplete="off" />
+                  <!--- password -------------->
+                  <input class="form-control" placeholder="Пароль" id="loginpsw" type="password" autocomplete="off" />
                   <span style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginpsw"></span>
                   <!---Alredy exists  ! -->
                   <span class="glyphicon glyphicon-lock form-control-feedback"></span>
@@ -87,7 +87,7 @@
                     </div>
                   </div>
                   <div class="col-xs-12">
-                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Sign In</button>
+                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Войти</button>
                   </div>
                 </div>
               </form>
@@ -393,7 +393,7 @@
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
-          <h2>Our Pricing</h2>
+          <h2>Цены</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
           <hr class="bottom-line">
         </div>
@@ -401,13 +401,13 @@
           <div class="price-table">
             <!-- Plan  -->
             <div class="pricing-head">
-              <h4>Monthly Plan</h4>
-              <span class="fa fa-usd curency"></span> <span class="amount">200</span>
+              <h4>План №1</h4>
+              <span class="fa fa-shekel curency"></span> <span class="amount">200</span>
             </div>
 
             <!-- Plean Detail -->
             <div class="price-in mart-15">
-              <a href="#" class="btn btn-bg green btn-block">PURCHACE</a>
+              <a href="#" class="btn btn-bg green btn-block">Купить</a>
             </div>
           </div>
         </div>
@@ -415,13 +415,13 @@
           <div class="price-table">
             <!-- Plan  -->
             <div class="pricing-head">
-              <h4>Quarterly Plan</h4>
-              <span class="fa fa-usd curency"></span> <span class="amount">800</span>
+              <h4>План №2</h4>
+              <span class="fa fa-shekel curency"></span> <span class="amount">800</span>
             </div>
 
             <!-- Plean Detail -->
             <div class="price-in mart-15">
-              <a href="#" class="btn btn-bg yellow btn-block">PURCHACE</a>
+              <a href="#" class="btn btn-bg yellow btn-block">Купить</a>
             </div>
           </div>
         </div>
@@ -429,13 +429,13 @@
           <div class="price-table">
             <!-- Plan  -->
             <div class="pricing-head">
-              <h4>Year Plan</h4>
-              <span class="fa fa-usd curency"></span> <span class="amount">1200</span>
+              <h4>План №3</h4>
+              <span class="fa fa-shekel curency"></span> <span class="amount">1200</span>
             </div>
 
             <!-- Plean Detail -->
             <div class="price-in mart-15">
-              <a href="#" class="btn btn-bg red btn-block">PURCHACE</a>
+              <a href="#" class="btn btn-bg red btn-block">Купить</a>
             </div>
           </div>
         </div>
@@ -452,8 +452,8 @@
           <p class="cta-2-txt">Подписывайтесь на несуществующие новости.</p>
           <div class="cta-2-form text-center">
             <form action="#" method="post" id="workshop-newsletter-form">
-              <input name="" placeholder="Enter Your Email Address" type="email">
-              <input class="cta-2-form-submit-btn" value="Subscribe" type="submit">
+              <input name="" placeholder="Введите e-mail" type="email">
+              <input class="cta-2-form-submit-btn" value="Подписаться" type="submit">
             </form>
           </div>
         </div>
@@ -505,41 +505,17 @@
     </div>
   </section>
 </main>
-
   <!--/ Contact-->
+
   <!--Footer-->
   <footer id="footer" class="footer">
     <div class="container text-center">
-
-      <h3>Start Your Free Trial Now!</h3>
-
-      <form class="mc-trial row">
-        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
-          <div class=" controls">
-            <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
-          </div>
-        </div>
-        <!-- End email input -->
-        <div class="form-group col-md-3 col-sm-4">
-          <div class=" controls">
-            <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
-          </div>
-        </div>
-        <!-- End email input -->
-        <div class="col-md-2 col-sm-4">
-          <p>
-            <button name="submit" type="submit" class="btn btn-block btn-submit">
-            Submit <i class="fa fa-arrow-right"></i></button>
-          </p>
-        </div>
-      </form>
-      <!-- End newsletter-form -->
+      <h3>Наши группы в соцсетях!</h3>
       <ul class="social-links">
-        <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-vk fa-fw" title="VK"></i></a></li>
+        <li><a href="#link"><i class="fa fa-facebook fa-fw" title="Facebook"></i></a></li>
+        <li><a href="#link"><i class="fa fa-google-plus fa-fw" title="Google +"></i></a></li>
+        <li><a href="#link"><i class="fa fa-linkedin fa-fw" title="LinkedIn"></i></a></li>
       </ul>
       ©2016 Mentor Theme. <s>All rights reserved</s> Своровано ПИНФ-15
       <div class="credits">
