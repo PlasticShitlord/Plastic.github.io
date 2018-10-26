@@ -1,0 +1,14 @@
+.calc{
+  border: 7px solid #aeaeae;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
+.sum span{
+  font-size: 40px;
+  color: purple;
+}
+
+.visitka{
+  display: none;
+}
