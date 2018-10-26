@@ -1,0 +1,9 @@
+body{
+  background: rgba(255, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+}
+table td{
+  border-style: solid;
+  width: 100%;
+}

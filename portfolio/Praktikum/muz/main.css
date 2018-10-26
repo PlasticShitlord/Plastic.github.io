@@ -1,0 +1,16 @@
+body {
+background: #f7f7f7;
+margin: 0;
+padding: 0;
+}
+
+table td{
+	border-style: solid;
+	width: 100%;
+}
+tr{
+	background-color: #eeeeee;
+}
+h3{
+	text-align: center;
+}

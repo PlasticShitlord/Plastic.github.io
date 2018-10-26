@@ -1,0 +1,190 @@
+/* пишем стили */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.clear{
+  clear: both;
+}
+
+p{
+	font-size: 16px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+input, textarea, button {
+	outline: none;
+}
+
+footer{
+}
+
+h1, h2, .copy {
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+button {
+	font-weight: 400;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container_button{
+  margin: 20px auto;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.landing h1, .landing h3{
+  text-align: center;
+  color: white;
+}
+
+.landing h1{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.landing h3{
+  font-size: 30px;
+  margin: 30px;
+}
+
+.landing hr{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.landing a{
+  margin: 0 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.logo, nav, nav li{
+  display: inline-block;
+}
+
+.logo{
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.navbar{
+  padding: 20px 0;
+}
+
+nav{
+  width: 80%;
+  float: right;
+  text-align: right;
+}
+
+nav li{
+  padding-right: 25px;
+}
+
+.landing{
+  background: url("../img/intro-bg.jpg") no-repeat center center/cover;
+  height: 300px;
+  padding: 300px 0;
+}
+
+.connect{
+	background: url("../img/banner-bg.jpg") no-repeat center center/cover;
+	padding: 100px 0;
+}
+
+.connect_button{
+	text-align: right;
+}
+
+.connect_button, .connect_title{
+	float: left;
+	width: 50%;
+}
+
+.connect h2{
+	color: white;
+	font-size: 40px;
+  margin-top: -14px;
+	margin-left: 30px;
+}
+
+.connect_button a{
+	margin: 0 10px;
+	padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.col50 hr{
+	width: 20%;
+}
+
+.col50 h2{
+	margin: 20px 0;
+}
+
+.col50{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	padding: 20px 30px;
+	margin-top: 10px;
+}
+
+.device .col50 img {
+    width: 60%;
+		display: inline-block;
+		margin: 0 20%;
+}
+
+.col50 img{
+	width: 60%;
+	display: inline-block;
+	margin: 0 20%;
+}
+
+.stock, .font{
+	background-color: #efefef;
+}
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 100px;
+	padding: 40px 0;
+}
+
+.footer_menu{
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.footer_menu li{
+	display: inline-block;
+	padding-right: 13px;
+}
+
+.copyright{
+	font-size: 11px;
+}
